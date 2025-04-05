@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Home Menu Item -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="Share"
+        android:titleTextColor="@color/blue"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp" />
+
+    <!-- Profile Menu Item -->
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:titleTextColor="@color/blue"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <!-- Settings Menu Item -->
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:titleTextColor="@color/blue"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+</menu>
