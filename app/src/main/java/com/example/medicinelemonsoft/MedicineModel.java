@@ -1,10 +1,10 @@
 package com.example.medicinelemonsoft;
 
-public class MedicineModel {
+import java.io.Serializable;
 
+public class MedicineModel implements Serializable {
     int id;
-    String brand_name,from,strength,price;
-
+    String brand_name, from, strength, price;
 
     public MedicineModel(int id, String brand_name, String from, String strength, String price) {
         this.id = id;
@@ -14,43 +14,11 @@ public class MedicineModel {
         this.price = price;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getBrand_name() {
-        return brand_name;
-    }
-
-    public void setBrand_name(String brand_name) {
-        this.brand_name = brand_name;
-    }
-
-    public String getFrom() {
-        return from;
-    }
-
-    public void setFrom(String from) {
-        this.from = from;
-    }
-
-    public String getStrength() {
-        return strength;
-    }
-
-    public void setStrength(String strength) {
-        this.strength = strength;
-    }
-
-    public String getPrice() {
-        return price;
-    }
-
-    public void setPrice(String price) {
-        this.price = price;
-    }
+    // Getters and setters...
+    public int getId() { return id; }
+    public String getBrand_name() { return brand_name; }
+    public String getFrom() { return from; }
+    public String getStrength() { return strength; }
+    public String getPrice() { return price; }
+    // ... rest of your getters and setters
 }
