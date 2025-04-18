@@ -1,0 +1,10 @@
+<resources>
+    <!-- Padding system -->
+    <dimen name="padding_screen">16dp</dimen>
+    <dimen name="padding_element">8dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+</resources>

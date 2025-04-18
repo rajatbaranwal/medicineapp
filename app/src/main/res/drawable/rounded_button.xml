@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/blue" />
+    <corners android:radius="@dimen/corner_radius_medium"/>
+    <!-- Add ripple effect for modern touch feedback -->
+    <item android:drawable="?attr/selectableItemBackground"/>
+</shape>

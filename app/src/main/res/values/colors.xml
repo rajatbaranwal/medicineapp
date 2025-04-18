@@ -2,11 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-
-    <color name="blue">#00BCD4</color>
-
-    <color name="menu_icon_color">@color/white</color> <!-- Your desired color -->
-
-
+    <color name="blue">#2196F3</color>  <!-- Modified blue -->
+    <color name="menu_icon_color">#FF9800</color>  <!-- Changed to orange -->
+    <color name="primary_color">#3F51B5</color>  <!-- New color -->
+    <color name="background_gray">#F5F5F5</color>  <!-- New color -->
+    <!-- Add these colors for consistency -->
+    <color name="blue_light">#80DEEA</color>
+    <color name="blue_transparent">#BC00BCD4</color>  <!-- Semi-transparent blue for hints -->
+    <color name="blue_dark">#00838F</color>
+    <!-- Darker blue (optional for toolbar) -->
 </resources>
